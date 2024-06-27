@@ -8,13 +8,16 @@
     "dev": "pnpm run --filter \"./**\" --parallel dev",
     "tunnel": "cloudflared tunnel --url http://localhost:3001"
   },
-  "engines" : { 
-    "node" : ">=21.0.0 <22.0.0"
+  "engines": {
+    "node": ">=21.0.0 <22.0.0"
   },
   "author": "Phaser Studio Inc <support@phaser.io> (https://www.phaser.io)",
   "license": "MIT",
   "licenseUrl": "https://www.opensource.org/licenses/mit-license.php",
   "devDependencies": {
-    "@types/node": "^20.12.11"
+    "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4"
   }
 }
